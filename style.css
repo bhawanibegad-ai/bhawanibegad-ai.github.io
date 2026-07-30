@@ -65,3 +65,55 @@ body {
 
     color: #555;
 }
+/* ===========================
+   NAVIGATION
+=========================== */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 28px 60px;
+
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(8px);
+
+    z-index: 1000;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #111;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.8rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #111;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.5;
+}
+
+.hero {
+    margin-top: 80px;
+}
